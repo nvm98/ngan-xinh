@@ -1,0 +1,253 @@
+﻿.wrap-dialog-delete-button {
+    width: 100%;
+    height: 100%;
+    padding: 8px;
+    position: relative;
+}
+
+.content-dialog-delete-text {
+    height: 64px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d0d0d0;
+}
+
+.icon-question-mark {
+    float: left;
+    height: 44px;
+    width: 44px;
+    background: url('../../Contents/icons/icon-popup.png') -165px -2px;
+}
+
+.icon-warn-mark {
+    float: left;
+    height: 44px;
+    width: 44px;
+    background: url('../../Contents/icons/icon-popup.png') no-repeat -56px -2px;
+}
+
+.content-dialog-delete-text > span {
+    float: left;
+    padding-left: 10px;
+    padding-top: 12px;
+    width: calc(100% - 44px);
+}
+
+.alert-delete .content-dialog-delete-text > span {
+    padding-top: 2px;
+}
+
+.alert-delete .content-dialog-close-button, .alert-delete .content-dialog-warn-button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: none;
+    height: calc(100% - 64px);
+    width: 100%;
+}
+
+.alert-delete .content-dialog-delete-button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: calc(100% - 64px);
+    width: 100%;
+}
+
+.btn-delete-agree {
+    position: absolute;
+    min-width: 75px;
+    height: 35px;
+    right: auto;
+    left: 228px;
+    top: 7px;
+    margin: 0px;
+    background-color: #fb8080;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: 600;
+    padding: 8px 12px;
+}
+
+    .btn-delete-agree:hover {
+        cursor: pointer;
+    }
+
+.btn-delete-cancel {
+    position: absolute;
+    min-width: 75px;
+    height: 35px;
+    right: auto;
+    left: 309px;
+    top: 7px;
+    margin: 0px;
+    font-weight: 600;
+    color: #026b97;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    padding: 8px 3px;
+}
+
+    .btn-delete-cancel:hover {
+        border: 1px solid #0088c2;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+.delete-agree-icon, .delete-cancel-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 3px;
+    float: left;
+    display: block;
+}
+
+.delete-agree-icon {
+    background: url('../../Contents/icons/common-icon.png') no-repeat -1076px -127px;
+}
+
+.delete-cancel-icon {
+    background: url('../../Contents/icons/common-icon.png') no-repeat -252px -127px;
+}
+
+.delete-agree-label, .delete-cancel-label {
+    display: block;
+    float: left;
+}
+
+.alert-save .content-dialog-close-button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: calc(100% - 64px);
+    width: 100%;
+}
+
+.alert-save .content-dialog-delete-button, .alert-save .content-dialog-warn-button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: none;
+    height: calc(100% - 64px);
+    width: 100%;
+}
+/*dialog cảnh báo Mshopkeeper
+Người tạo NVMANH 9/6/2019*/
+.alert-warn .content-dialog-warn-button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: calc(100% - 64px);
+    width: 100%;
+}
+
+.alert-warn .content-dialog-close-button, .alert-warn .content-dialog-delete-button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: none;
+    height: calc(100% - 64px);
+    width: 100%;
+}
+
+.dialog-close-save {
+    width: 75px;
+    right: 193px;
+    height: 32px;
+    color: #fff;
+    background-color: #026b97;
+}
+
+.dialog-close-no-save {
+    width: 94px;
+    right: 91px;
+    height: 32px;
+    color: #026b97;
+    border: 1px solid #026b97;
+}
+
+.dialog-close-cancel {
+    width: 75px;
+    right: 8px;
+    height: 32px;
+    color: #026b97;
+    border: 1px solid #fff;
+}
+
+    .dialog-close-cancel:hover {
+        border: 1px solid #026b97;
+    }
+
+.btn-dialog-close {
+    /* float: right; */
+    /* margin-left: 8px; */
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 7px 2px;
+    position: absolute;
+}
+
+    .btn-dialog-close:hover {
+        cursor: pointer;
+    }
+
+    .btn-dialog-close > span {
+        display: block;
+        float: left;
+    }
+
+.btn-save-icon, .btn-no-save-icon, .btn-cancel-icon {
+    height: 16px;
+    width: 16px;
+    margin: 1px 4px 1px 1px;
+}
+
+.btn-save-icon {
+    margin-left: 12px;
+    background: url('../../Contents/icons/save-white.png') no-repeat 4px 4px #026b97;
+}
+
+.btn-no-save-icon {
+    background: url('../../Contents/icons/not-save.png') no-repeat 3px 1px #fff;
+}
+
+.btn-cancel-icon {
+    background: url('../../Contents/icons/cancel-blue.png') no-repeat 3px 4px #fff;
+}
+
+.wrap-dialog-close-button {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 8px;
+}
+
+.wrap-dialog-warn-button {
+    width: 100%;
+    height: 100%;
+    padding: 8px;
+}
+
+.btn-dialog-warn {
+    margin-left: 8px;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 7px 0;
+}
+
+    .btn-dialog-warn:hover {
+        cursor: pointer;
+    }
+
+    .btn-dialog-warn > span {
+        display: block;
+        padding-left: 14px;
+    }
+
+.dialog-warn-agree {
+    float: right;
+    width: 75px;
+    height: 32px;
+    color: #fff;
+    background-color: #026b97;
+}

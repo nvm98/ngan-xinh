@@ -1,0 +1,233 @@
+﻿.panel-page-left {
+    float: left;
+    width: 140px;
+    height: 52px;
+    background-color: #006189;
+    cursor: pointer;
+}
+
+.panel-page-right {
+    float: left;
+    width: calc(100% - 140px);
+    right: 0;
+    bottom: 0;
+    height: 52px;
+}
+
+.panel-logo {
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    padding: 12px 0px;
+}
+
+.panel-right-wrap-label {
+    float: left;
+    height: 52px;
+    width: 160px;
+    padding: 13px 0;
+}
+
+.panel-right-label {
+    color: #212121;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0 0 0 21px;
+    right: auto;
+    left: 0;
+    top: 18px;
+    margin: 0;
+}
+
+.panel-right-top-menu {
+    float: right;
+    width: calc(100% - 160px);
+    height: 52px;
+    left: 157px;
+}
+
+.header-menu-right {
+    float: right;
+    height: 52px;
+    width: calc(100% - 160px);
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.menu-link {
+    float: left;
+    float: left;
+    width: 145px;
+    height: 52px;
+    padding: 16px 0;
+    text-align: center;
+}
+
+.menu-right-link {
+    height: 52px;
+    width: 290px;
+    float: left;
+}
+
+.menu-right-combobox {
+    float: right;
+    position: relative;
+}
+
+.menu-link a {
+    color: #026b97;
+    font-weight: 600;
+}
+
+    .menu-link a:hover {
+        text-decoration: none;
+    }
+
+.header-icon {
+    width: 54px;
+    border-left:1px solid #d0d0d0;
+    height: 52px;
+    float: left;
+}
+    .header-icon span{
+        display:block;
+        width:18px;
+        height:18px;
+        margin:auto;
+        margin-top: 18px;
+    }
+.header-icon-notify span {
+    background: url('../../Contents/icons/notify-18.png') no-repeat;
+}
+.header-icon-help span {
+    background: url('../../Contents/icons/icon_help_18.png') no-repeat;
+}
+
+.menu-right-icon {
+    float: right;
+}
+
+.btn-account {
+    width: 105px;
+    height: 52px;
+    float: left;
+}
+
+.select-account {
+    width: 162px;
+    height: 52px;
+    float: left;
+    margin: 0 8px;
+}
+
+.combobox-account-down {
+    padding: 0 0 0 20px;
+    font-size: 12px;
+}
+
+.arrow-down-account {
+    margin: 8px 0;
+    height: 35px;
+    border: 1px solid #d0d0d0;
+    border-radius: 3px;
+    padding-top: 8px;
+    text-align: center;
+}
+
+    .arrow-down-account span {
+        padding: 0 0 0 11px;
+        text-align: center;
+        font-weight: 600;
+    }
+
+.arrow-down-logo {
+    padding: 0;
+    border:none;
+    margin-right:14px;
+}
+    .arrow-down-logo span {
+        padding-top: 8px;
+    }
+    .arrow-down-logo i {
+        padding-top: 13px;
+    }
+
+.icon-account {
+    background-size: contain;
+    margin-top: 2px;
+    margin-left: 2px;
+    float: left;
+    width: 28px;
+    height: 28px;
+    font-size: 28px;
+    background-image: url(https://devmisatest.mshopkeeper.vn/backendg1/api/Image?id=&type=0&w=50&h=50&CompanyCode=devmisatest);
+    box-shadow: 0 0 black;
+}
+.wrap-combo-account-item a{
+    display:block;
+}
+.btn-account{
+    position:relative;
+}
+.combo-account-item {
+    position: absolute;
+    top: 50px;
+    left: 8px;
+    right: 112px;
+    background-color: #fff;
+    z-index: 99;
+    display: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 10px 1px grey;
+    background-color: #fff;
+}
+.combo-account a {
+    color: #212121;
+    font-weight: 600;
+    padding:4px 8px;
+    display:block;
+    width:195px;
+    height:36px;
+    border-bottom:1px solid #d0d0d0;
+}
+    .combo-account a:hover{
+        color:#5491ae;
+    }
+    .combo-account span {
+        float: left;
+        padding: 6px 8px;
+    }
+    .combo-account {
+        position: absolute;
+        top: 50px;
+        right:0;
+        width: 195px;
+        background-color: #fff;
+        z-index: 99;
+        display: none;
+        border-radius: 3px;
+        box-shadow: 1px 1px 10px 1px grey;
+        background-color: #fff;
+    }
+.icon-lock, .icon-notify, .icon-signout{
+    display:block;
+    height:32px;
+    width:16px;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+.icon-lock {
+    background-image: url('../../Contents/icons/icon-change-password16.png');
+}
+.icon-notify {
+    background-image: url('../../Contents/icons/icon-feedback.png');
+}
+.icon-signout {
+    background-image: url('../../Contents/icons/icon-logout16.png');
+}

@@ -1,0 +1,528 @@
+﻿.wrap-dialog-collect {
+    padding: 0 8px 0 8px;
+    height: 100%;
+    width: 100%;
+}
+
+.wrap-collect-input {
+    height: 100%;
+    width: 100%;
+    padding: 0 8px;
+}
+
+.collect-input-start > div {
+    float: left;
+    height: 32px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.dialog-collect-input {
+    height: 94px;
+    width: 100%;
+}
+
+.dialog-collect-table {
+    height: calc(100% - 150px);
+    width: 100%;
+}
+
+.dialog-collect-button {
+    position: relative;
+    border-top: 1px solid #d0d0d0;
+    height: 55px;
+    width: 100%;
+    padding: 10px;
+}
+
+.wrap-collect-table {
+    height: calc(100% - 12px);
+    width: 100%;
+    border-width: 1px 1px 0px 1px;
+    border-style: solid;
+    border-color: #d0d0d0;
+}
+
+.collect-table-header {
+    height: 57px;
+    width: 100%;
+}
+
+.collect-table-body {
+    height: calc(100% - 92px);
+    width: 100%;
+}
+
+.collect-table-footer {
+    height: 35px;
+    width: 100%;
+    border-top: 1px solid #d0d0d0;
+    background-color: #FDDCB3 !important;
+}
+
+.collect-input-start {
+    height: 47px;
+    width: 100%;
+}
+
+.collect-input-money {
+    height: 47px;
+    width: 100%;
+}
+
+#collect-input-1, #collect-input-2, #collect-input-3 {
+    height: 33px;
+    border: none;
+    outline: none;
+    margin: 0 8px;
+    width: calc(100% - 40px);
+    float: left;
+}
+
+#collect-input-3 {
+    width: calc(100% - 16px);
+}
+
+.dialog-select-object > label, .dialog-select-date > label {
+    width: 115px;
+    padding: 8px 5px 8px 0px;
+    float: left;
+}
+
+.wrap-input {
+    border: 1px solid #d0d0d0;
+    border-radius: 3px;
+    height: 35px;
+    float: left;
+    margin: 0 8px 0 0;
+}
+
+.wrap-input-1 {
+    position: relative;
+}
+
+.combobox-table-customer, .combobox-table-supplier {
+    position: absolute;
+    top: 35px;
+    left: -2px;
+    max-height: 300px;
+    display: none;
+    border: 1px solid #e1e1e1;
+    background: #fff;
+    border-radius: 3px;
+    min-width: 532px;
+    z-index: 99;
+}
+
+.table-customer-body, .table-supplier-body {
+    overflow-y: auto;
+    height: 267px;
+}
+
+.col-header-customer {
+    padding-top: 6px;
+    height: 32px;
+    color: #212121;
+    background-color: #e1e1e1;
+    float: left;
+    border-width: 0 1px 1px 0;
+    border-style: solid;
+    border-color: #d0d0d0;
+    text-align: center;
+    font-weight: 600;
+}
+
+.col-body-customer, .col-body-supplier {
+    padding: 7px 10px 6px;
+    height: 32px;
+    color: #212121;
+    float: left;
+    border-width: 0 1px 1px 0;
+    border-style: solid;
+    border-color: #d0d0d0;
+}
+
+.col-header-customer-id {
+    width: calc(100% - 417px);
+}
+
+.col-body-customer-id, .col-body-supplier-id {
+    width: calc(100% - 400px);
+}
+
+.col-header-customer-name, .col-body-customer-name, .col-body-supplier-name {
+    width: 250px;
+}
+
+.col-header-customer-type, .col-body-customer-type, .col-body-supplier-type {
+    width: 150px;
+}
+
+.wrap-table-customer-header {
+    height: 32px;
+}
+
+.wrap-dialog-get-data {
+    width: 120px;
+    height: 35px;
+    border: 1px solid #026b97;
+    border-radius: 3px;
+    padding: 7px;
+    text-align: center;
+    color: #026b97;
+    font-weight: 600;
+}
+
+    .wrap-dialog-get-data > span {
+        background-image: url('../../Contents/icons/Search-blue.png');
+        background-repeat: no-repeat;
+        margin: 4px;
+        padding: 8px;
+        float: left;
+    }
+
+    .wrap-dialog-get-data > div {
+        float: left;
+    }
+
+    .wrap-dialog-get-data:hover {
+        cursor: pointer;
+    }
+
+.dialog-select-object {
+    width: calc(60% - 72px);
+}
+
+.dialog-select-date {
+    width: calc(40% - 48px);
+}
+
+    .dialog-select-object > div, .dialog-select-date > div {
+        width: calc(100% - 125px);
+    }
+
+.icon-down-1, .icon-down-2 {
+    height: 100%;
+    width: 24px;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+    .icon-down-1:hover, .icon-down-2:hover {
+        cursor: pointer;
+    }
+
+.icon-down-1 {
+    background-image: url('../../Contents/icons/arrow-down-line.png');
+    background-position: 8px;
+}
+
+.icon-down-2 {
+    background-image: url('../../Contents/icons/common-icon.png');
+    background-position: 0 -169px;
+}
+
+.col-table-header {
+    height: 57px;
+    float: left;
+    padding: 7px 10px 6px;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: #d0d0d0;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.col-table-body {
+    height: 35px;
+    float: left;
+    padding: 7px 10px 6px;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: #d0d0d0;
+}
+
+.col-table-footer {
+    height: 35px;
+    float: left;
+    padding: 7px 10px 6px;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: #d0d0d0;
+    /*background-color: #f0f0f0;*/
+}
+
+.col-table-header-check, .col-table-body-check, .col-table-footer-check {
+    width: 39px;
+}
+
+.col-table-header-date, .col-table-body-date {
+    width: 129px;
+    background-color: #f0f0f0;
+}
+
+.col-table-footer-date {
+    width: 129px;
+    background-color: #FDDCB3 !important;
+}
+
+.col-table-header-number, .col-table-body-number {
+    width: calc(100% - 670px);
+    background-color: #f0f0f0;
+}
+
+.col-table-footer-number {
+    width: calc(100% - 670px);
+    background-color: #FDDCB3 !important;
+}
+
+.col-table-header-debt, .col-table-body-debt, .col-table-footer-debt {
+    width: 124px;
+}
+
+.col-table-header-collected, .col-table-body-collected {
+    width: 165px;
+    background-color: #f0f0f0;
+}
+
+.col-table-footer-collected {
+    width: 165px;
+    background-color: #FDDCB3 !important;
+}
+
+.col-table-header-collect, .col-table-body-collect {
+    width: 165px;
+    background-color: #f0f0f0;
+}
+
+.col-table-footer-collect {
+    width: 165px;
+    background-color: #FDDCB3 !important;
+}
+
+.col-table-header-collecting, .col-table-body-collecting {
+    width: 172px;
+    border-right: none;
+}
+
+.col-table-footer-collecting {
+    width: 172px;
+    border-right: none;
+}
+
+.wrap-text-header-table {
+    padding: 10px 0;
+    color: #212121;
+    font-weight: 600;
+}
+
+.col-table-footer-debt, .col-table-footer-collected, .col-table-footer-collect, .col-table-footer-collecting {
+    font-weight: 600;
+    text-align: right;
+}
+
+.dialog-btn-pay, .dialog-btn-cancel {
+    /* float: right; */
+    font-weight: 600;
+}
+
+.dialog-btn-pay {
+    right: 92px;
+    width: 95px;
+    height: 35px;
+    border-radius: 3px;
+    background-color: #026b97;
+    color: #fff;
+    margin: 0 4px;
+    position: absolute;
+}
+
+    .dialog-btn-pay:hover {
+        background-color: #0088c2;
+    }
+
+.dialog-btn-cancel {
+    color: #fff;
+    width: 90px;
+    height: 35px;
+    border-radius: 3px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    position: absolute;
+    right: 0px;
+}
+
+    .dialog-btn-pay > a:hover, .dialog-btn-cancel > a:hover {
+        text-decoration: none;
+    }
+
+.dialog-btn-pay > a {
+    padding: 8px 14px;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    display: block;
+}
+
+.dialog-btn-cancel > a {
+    padding: 8px 8px;
+    width: 100%;
+    height: 100%;
+    color: #026b97;
+    display: block;
+    border-radius: 3px;
+}
+
+.dialog-btn-cancel:hover {
+    border: 1px solid #026b97;
+    border-radius: 3px;
+}
+
+.dialog-btn-pay:hover {
+}
+
+.dialog-btn-icon {
+    background-image: url('../../Contents/icons/common-icon.png');
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    display: block;
+    margin: 1px 4px 1px 1px;
+}
+
+.icon-cancel {
+    float: left;
+    background-position: -252px -127px;
+}
+
+.icon-pay {
+    float: left;
+    background-position: -377px -127px;
+}
+
+.row-table-customer, .row-table-supplier {
+    height: 32px;
+}
+
+    .row-table-customer:hover, .row-table-supplier:hover {
+        cursor: pointer;
+    }
+
+.btn-help-select-bill {
+    float: left;
+    padding: 8px;
+    height: 35px;
+    width: 90px;
+}
+
+    .btn-help-select-bill span {
+        float: left;
+        font-weight: 600;
+        color: #026b97;
+        display: block;
+    }
+
+    .btn-help-select-bill a {
+        height: 100%;
+        width: 100%;
+    }
+
+    .btn-help-select-bill .icon-help {
+        background-image: url('../../Contents/icons/icon-popup.png');
+        background-size: cover;
+        background-position: -59px 0px;
+        background-repeat: no-repeat;
+    }
+
+/*Bảng dữ liệu chọn hóa đơn
+    Người tạo NVMANH 22/6/2019*/
+.collect-table-header .col-table-header-check {
+    background: url(../../Contents/icons/uncheck.png) no-repeat center center;
+    background-color: #f0f0f0;
+}
+
+.col-table-body-check {
+    background: transparent url(../../Contents/icons/uncheck.png) no-repeat center center;
+    margin: 0px auto;
+}
+
+    .col-table-body-check.checked {
+        background: transparent url('../../Contents/icons/check.png') no-repeat center center;
+    }
+
+.collect-table-header .check-all {
+    margin: 11px 0px;
+}
+
+    .collect-table-header .check-all.checked {
+        background: transparent url('../../Contents/icons/check.png') no-repeat center center;
+    }
+
+.col-table-body-debt, .col-table-body-collected, .col-table-body-collect, .col-table-body-collecting {
+    text-align: right;
+}
+
+.col-table-body.col-table-body-collecting {
+    padding: 0;
+}
+
+.wrap-text-body-table {
+    height: 100%;
+    width: 100%;
+}
+
+    .wrap-text-body-table input {
+        height: 100%;
+        width: 100%;
+        border: 1px solid #fff;
+        outline: none;
+        padding: 0 8px;
+        text-align: right;
+    }
+
+.icon-loading-employee {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: url('../../Contents/icons/loading.gif') no-repeat;
+    width: 18px;
+    height: 18px;
+    display: none;
+}
+
+.select-bill-collect .combobox-table-supplier {
+    display: none !important;
+}
+
+.select-bill-pay .combobox-table-customer {
+    display: none !important;
+}
+
+#dialog-collect-debt #collect-input-2.input-disable, #dialog-collect-debt #collect-input-3.input-disable {
+    color: transparent;
+    text-shadow: 0 0 0 #404040;
+    background-color: #e5e6eb;
+    pointer-events: none;
+}
+
+#dialog-collect-debt .wrap-dialog-get-data.input-disable {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+#dialog-collect-debt .wrap-input-2.input-disable, #dialog-collect-debt .wrap-input-3.input-disable {
+    background-color: #e5e6eb;
+}
+
+#dialog-collect-debt .icon-down-2.input-disable {
+    pointer-events: none;
+}
+
+.water-mark {
+    width: 130px;
+    height: 32px;
+    padding: 8px;
+    position: absolute;
+    top: 50%;
+    left: calc(50% - 65px);
+}
