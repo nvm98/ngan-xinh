@@ -1,0 +1,1398 @@
+﻿/*thanh title của dialog thêm
+Người tạo NVMANH 28/5/2019*/
+.ui-widget.ui-widget-content {
+    border-radius: 5px;
+}
+/*.no-close .ui-dialog-titlebar-close {
+    display: none
+}*/
+.ui-dialog .ui-dialog-titlebar {
+    border-radius: 5px;
+    background-color: #f0f0f0;
+}
+
+.icon-dialog-close {
+    top: 0;
+    right: 0px;
+    position: absolute;
+    background: url(../../Contents/icons/common-icon.png) no-repeat -1124px -114px;
+    display: block;
+    width: 27px;
+    height: 41px;
+}
+
+    .icon-dialog-close:hover {
+        cursor: pointer;
+    }
+
+.ui-dialog {
+    padding: 0;
+    border-radius: 3px;
+}
+
+.ui-widget-overlay {
+    opacity: 0.3;
+    filter: Alpha(Opacity=50);
+    background-color: black;
+}
+
+.double-overlay {
+    opacity: 0 !important;
+}
+
+.ui-dialog-title {
+    float: left;
+    font-size: 16px;
+    font-weight: 600;
+    color: #212121;
+    padding: 4px 0px;
+}
+
+.ui-dialog-titlebar {
+    padding: 8px 8px;
+    height: 41px;
+    width: 100%;
+    background-color: #fff;
+    border: none;
+}
+
+.content-dialog-title-debt, .content-dialog-title-close, .content-dialog-title-pay, .content-dialog-title-delete {
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.ui-dialog .ui-dialog-titlebar-close {
+    outline: none;
+    background-color: #f0f0f0;
+}
+
+    .ui-dialog .ui-dialog-titlebar-close:hover {
+        cursor: pointer;
+    }
+
+.ui-dialog-titlebar-close {
+    outline: none;
+    background-image: url('../../Contents/icons/common-icon.png');
+    background-repeat: no-repeat;
+    background-position: -1127px -127px;
+    background-color: #fff;
+    border: none;
+}
+
+.btn-close-dialog-debt, .btn-close-dialog-finally, .btn-close-dialog-pay, .btn-close-dialog-delete {
+    background-color: #f0f0f0;
+}
+
+.icon-dialog-resize, .icon-dialog-resize-object, .icon-dialog-resize-debt {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    height: 41px;
+    width: 27px;
+    background-image: url(../../Contents/icons/Maximize.png);
+    background-repeat: no-repeat;
+    background-position: 8px 15px;
+}
+
+    .icon-dialog-resize:hover, .icon-dialog-resize-object:hover, .icon-dialog-resize-debt:hover {
+        cursor: pointer;
+    }
+
+.ui-dialog .ui-dialog-content {
+    padding: 0 0;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+/*phần toolbar của thân dialog
+Người tạo NVMANH 28/5/2019*/
+.content-dialog {
+    height: 100%;
+    position:relative;
+}
+
+.content-dialog-body {
+    height: calc(100% - 32px);
+    position: relative;
+}
+
+.content-dialog-header {
+    background-color: #026b97;
+    height: 32px;
+    width: 100%;
+    color: #fff;
+    user-select: none;
+}
+
+.seperate {
+    height: 32px;
+    border-style: solid;
+    border-width: 0 0 0 1px;
+    border-left-color: #1882ae;
+    float: left;
+}
+
+.dialog-header-item {
+    height: 32px;
+    float: left;
+    background-color: #026b97;
+    line-height: 36px;
+    align-items: center;
+    padding: 0 12px;
+}
+
+    .dialog-header-item:hover {
+        /*background-color: #0088c2;*/
+        cursor: pointer;
+    }
+
+.item-before, .item-after, .item-print {
+    padding: 0 8px;
+}
+
+.dialog-header-item-off {
+    opacity: 0.5;
+    pointer-events: none;
+}
+.off-click {
+    pointer-events: none;
+}
+
+.dialog-header-icon {
+    background-image: url('../../Contents/icons/common-icon.png');
+    background-repeat: no-repeat;
+    height: 16px;
+    line-height: 16px;
+    width: 16px;
+    margin: 9px 8px 7px 0;
+    float: left;
+}
+
+.dialog-header-icon-backward {
+    background-position: -475px -127px;
+}
+
+.dialog-header-icon-forward {
+    background-position: -425px -127px;
+}
+
+.dialog-header-icon-add {
+    background-position: -1px -127px;
+}
+
+.dialog-header-icon-edit {
+    background-position: -77px -203px;
+}
+
+.dialog-header-icon-save {
+    background-position: -325px -127px;
+}
+
+.dialog-header-icon-delete {
+    background-position: -1076px -127px;
+}
+
+.dialog-header-icon-back {
+    background-position: -1401px -127px;
+}
+
+.dialog-header-icon-print {
+    background-position: -227px -127px;
+}
+
+.dialog-header-icon-help {
+    background-position: -176px -202px;
+}
+
+.dialog-header-icon-complete {
+    background-position: -275px -127px;
+}
+
+.combobox-item-dialog-header {
+    position: absolute;
+    display: none;
+    background-color: #fff;
+    z-index: 9999;
+    border-radius: 3px;
+    box-shadow: 1px 1px 10px 1px grey;
+}
+
+.combobox-item-after {
+    top: 32px;
+    left: 0px;
+    width: 150px;
+}
+
+.combobox-item-before {
+    top: 32px;
+    left: 0px;
+    width: 150px;
+}
+
+.combobox-item-print {
+    top: 32px;
+    left: 0px;
+    width: 150px;
+}
+
+.dialog-body-panel-label {
+    padding: 8px;
+    position: absolute;
+    margin: 0px;
+    width: 120px;
+    right: auto;
+    left: 8px;
+    top: 8px;
+    height: 24px;
+}
+
+.dialog-panel-radio {
+    position: absolute;
+    margin: 0px;
+    right: auto;
+    left: 136px;
+    top: 8px;
+}
+
+.option-different {
+    position: absolute;
+    margin: 0px;
+    right: auto;
+    left: 0px;
+    top: 0px;
+    width: 95px;
+}
+
+.option-debt {
+    position: absolute;
+    margin: 0px;
+    right: auto;
+    left: 95px;
+    top: 0px;
+    width: 120px;
+}
+
+.dialog-body-panel {
+    height: 50px;
+    width: 100%;
+}
+
+.wrap-dialog-body-panel {
+    height: 36px;
+    width: 100%;
+    position: relative;
+}
+/*ccs phần radio button*/
+[name="select-option"]:checked,
+[name="select-option"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+
+    [name="select-option"]:checked + label,
+    [name="select-option"]:not(:checked) + label {
+        position: relative;
+        padding-left: 25px;
+        cursor: pointer;
+        line-height: 20px;
+        margin-right: 50px;
+        display: inline-block;
+        color: #666;
+        margin-top: 8px;
+    }
+
+        [name="select-option"]:checked + label:before,
+        [name="select-option"]:not(:checked) + label:before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 16px;
+            height: 16px;
+            border: 2px solid #006189;
+            border-radius: 100%;
+            background: #fff;
+        }
+
+        [name="select-option"]:not(:checked) + label:before {
+            border: 2px solid gray;
+        }
+
+        [name="select-option"]:checked + label:after,
+        [name="select-option"]:not(:checked) + label:after {
+            content: '';
+            width: 8px;
+            height: 8px;
+            background: #006189;
+            position: absolute;
+            top: 4px;
+            left: 4px;
+            border-radius: 100%;
+            -webkit-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+        }
+
+        [name="select-option"]:not(:checked) + label:after {
+            opacity: 0;
+            -webkit-transform: scale(0);
+            transform: scale(0);
+        }
+
+        [name="select-option"]:checked + label:after {
+            opacity: 1;
+            -webkit-transform: scale(1);
+            transform: scale(1);
+        }
+
+[name="primaryRadio"] {
+    margin: 4px 14px;
+}
+/*css phần thông tin chung dialog*/
+.dialog-body-info {
+    height: 253px;
+    width: 100%;
+}
+
+.input-blinking {
+    color: transparent;
+    text-shadow: 0 0 0 #404040;
+}
+
+.debt-background {
+    background-color: #e5e6eb;
+}
+
+.wrap-dialog-body-info {
+    padding: 8px;
+    height: 253px;
+    width: 100%;
+}
+
+.label-dialog-info {
+    width: 105px;
+    margin-right: 5px;
+    margin-top: 6px;
+    font-weight: 400;
+    color: #404040;
+}
+
+.dialog-body-info-left {
+    float: left;
+    width: calc(100% - 240px);
+    height: 253px;
+    padding: 8px 0px 4px;
+}
+
+.dialog-body-info-right {
+    float: left;
+    width: 240px;
+    height: 124px;
+}
+
+.dialog-body-info-label {
+    height: 26px;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 4px 0;
+    color: #757575;
+}
+
+.dialog-info-object-label {
+    float: left;
+}
+
+.dialog-info-object-input {
+    width: calc(100% - 115px);
+    float: left;
+}
+
+.object-input-left {
+    position: relative;
+    float: left;
+    border: 1px solid #d0d0d0;
+    margin: 0px 2px;
+    border-radius: 3px;
+    width: 35%;
+}
+
+.object-input-right {
+    float: left;
+    border: 1px solid #d0d0d0;
+    margin: 0px 2px;
+    border-radius: 3px;
+    width: calc(65% - 8px);
+}
+
+.dialog-info-submitter-label {
+    float: left;
+}
+
+.dialog-info-submitter-input {
+    float: left;
+    border: 1px solid #d0d0d0;
+    margin: 0px 2px;
+    border-radius: 3px;
+    width: calc(100% - 119px);
+}
+
+.dialog-info-address-label {
+    float: left;
+}
+
+.dialog-info-address-input {
+    float: left;
+    border: 1px solid #d0d0d0;
+    margin: 0px 2px;
+    border-radius: 3px;
+    width: calc(100% - 119px);
+}
+
+.dialog-info-reason-label {
+    float: left;
+}
+
+.dialog-info-reason-input {
+    float: left;
+    border: 1px solid #d0d0d0;
+    margin: 0px 2px;
+    border-radius: 3px;
+    width: calc(100% - 119px);
+}
+
+.dialog-info-employee-label {
+    float: left;
+}
+
+.dialog-info-employee-input {
+    float: left;
+    width: calc(100% - 115px);
+}
+
+.employee-input-left {
+    position: relative;
+    float: left;
+    border: 1px solid #d0d0d0;
+    margin: 0px 2px;
+    border-radius: 3px;
+    width: 35%;
+}
+
+.employee-input-right {
+    float: left;
+    border: 1px solid #d0d0d0;
+    margin: 0px 2px;
+    border-radius: 3px;
+    width: calc(65% - 8px);
+}
+
+.dialog-info-object input, .dialog-info-submitter input, .dialog-info-address input, .dialog-info-reason input, .dialog-info-employee input {
+    height: 32px;
+    border: none;
+    outline: none;
+    margin: 0 8px;
+    width: calc(100% - 16px);
+}
+
+.dialog-info-object, .dialog-info-submitter, .dialog-info-address, .dialog-info-reason, .dialog-info-employee {
+    height: 35px;
+    margin: 5px 0;
+    width: 100%;
+}
+
+.wrap-dialog-info-right {
+    padding: 8px 8px 4px;
+}
+
+.dialog-voucher-number-label {
+    float: left;
+    width: 90px;
+}
+
+.dialog-voucher-number-input {
+    float: left;
+    border: 1px solid #d0d0d0;
+    margin: 0px 2px;
+    border-radius: 3px;
+    width: calc(100% - 100px);
+}
+
+.dialog-voucher-date-label {
+    float: left;
+    width: 90px;
+}
+
+.dialog-voucher-date-input {
+    float: left;
+    border: 1px solid #d0d0d0;
+    margin: 0px 2px;
+    border-radius: 3px;
+    width: calc(100% - 100px);
+}
+
+    .dialog-voucher-number-input input, .dialog-voucher-date-input input {
+        height: 32px;
+        border: none;
+        outline: none;
+        margin: 0 8px;
+        width: calc(100% - 16px);
+    }
+
+.dialog-voucher-number, .dialog-voucher-date {
+    height: 35px;
+    margin: 5px 0;
+    width: 100%;
+}
+
+.icon-input-down, .icon-input-search, .icon-input-add {
+    height: 32px;
+    width: 24px;
+    float: left;
+}
+
+.icon-input-down {
+    background-image: url('../../Contents/icons/arrow-down-line.png');
+    background-repeat: no-repeat;
+    background-position: 8px 16px;
+}
+
+    .icon-input-down:hover {
+        cursor: pointer;
+    }
+
+
+.icon-input-search {
+    background-image: url('../../Contents/icons/Quick-search.png');
+    background-repeat: no-repeat;
+    background-position: 2px 10px;
+}
+
+    .icon-input-search:hover {
+        cursor: pointer;
+    }
+
+.icon-input-add {
+    background-image: url('../../Contents/icons/quick-add.png');
+    background-repeat: no-repeat;
+    border-left: 1px solid #d0d0d0;
+    background-position: 6px 10px;
+    background-color:#f0f0f0;
+}
+
+    .icon-input-add:hover {
+        cursor: pointer;
+    }
+
+.employee-input-left input, .object-input-left input {
+    height: 32px;
+    width: calc(100% - 88px);
+    float: left;
+}
+.dialog-body-debt .employee-input-left input {
+    width: calc(100% - 64px);
+}
+    .dialog-icon-calender {
+        width: 24px;
+        height: 33px;
+        float: left;
+        background-image: url('../../Contents/icons/common-icon.png');
+        background-repeat: no-repeat;
+        background-position: 0 -168px;
+    }
+
+    .dialog-icon-calender:hover {
+        cursor: pointer;
+    }
+
+.dialog-voucher-date-input input {
+    height: 33px;
+    width: calc(100% - 40px);
+    float: left;
+}
+
+/*css phân bảng chi tiết cuối dialog
+Người tạo NVMANH 29/5/2019*/
+.dialog-body-detail {
+    height: calc(100% - 253px);
+}
+
+.wrap-dialog-body-detail {
+    padding-bottom: 8px;
+    height: 100%;
+    width: 100%;
+}
+
+.dialog-content-detail {
+    padding: 8px 8px 4px;
+    height: 100%;
+}
+
+.dialog-body-detail-label {
+    height: 32px;
+}
+
+.dialog-body-detail-table {
+    height: calc(100% - 32px);
+    border-width: 1px 1px 0px 1px;
+    border-style: solid;
+    border-color: #d0d0d0;
+}
+
+.dialog-detail-table-header {
+    height: 32px;
+    width: 100%;
+    background-color: #f0f0f0;
+}
+
+.dialog-detail-table-body {
+    height: calc(100% - 64px);
+    width: 100%;
+    overflow-y: auto;
+}
+
+.dialog-detail-table-footer {
+    border-top: 1px solid #d0d0d0;
+    height: 32px;
+    background-color: #FDDCB3 !important;
+    width: 100%;
+}
+
+.dialog-column {
+    height: 33px;
+    /*padding: 7px 10px 6px;*/
+    float: left;
+    border-right: 1px solid #d0d0d0;
+    border-bottom: 1px solid #d0d0d0;
+    color: rgba(33,33,33,1);
+    outline: 0;
+}
+
+.dialog-column-voucher {
+    height: 32px;
+    padding: 8px 8px;
+    float: left;
+    border-right: 1px solid #d0d0d0;
+    border-bottom: 1px solid #d0d0d0;
+    color: rgba(33,33,33,1);
+    outline: 0;
+}
+
+.dialog-column-header {
+    text-align: center;
+    font-weight: 600;
+    height: 32px;
+    padding: 7px 10px 6px;
+    float: left;
+    border-right: 1px solid #d0d0d0;
+    border-bottom: 1px solid #d0d0d0;
+    color: rgba(33,33,33,1);
+    outline: 0;
+}
+
+.dialog-table-column-money {
+    text-align: right;
+}
+
+.dialog-table-column-explain {
+    width: calc(100% - 410px);
+}
+
+.dialog-table-column-money {
+    width: 200px;
+}
+
+.dialog-table-column-index {
+    width: 160px;
+}
+
+.dialog-col-index-voucher {
+    width: 210px;
+    border-right: none;
+}
+
+.dialog-table-column-delete {
+    width: 50px;
+    border-right: none;
+}
+
+.wrap-column-icon-delete {
+    display: block;
+    margin: auto;
+    height: 32px;
+    padding: 4px;
+}
+
+    .wrap-column-icon-delete:hover {
+        background-color: #9ff2f7;
+        text-decoration: none;
+    }
+
+.wrap-text-body-column {
+    width: 100%;
+    height: 32px;
+}
+
+    .wrap-text-body-column input {
+        text-indent: 8px;
+        width: 100%;
+        height: 100%;
+        border: none;
+        outline: none;
+    }
+
+.dialog-column-icon-delete {
+    margin-left: 14px;
+    height: 32px;
+    background: url('../../Contents/icons/common-icon.png') no-repeat -3px 2px;
+    padding: 2px 8px;
+}
+
+.dialog-table-column-delete {
+}
+/*css cho lựa chọn thu nợ
+Người tạo NVMANH 30/5/2019*/
+.dialog-body-different {
+    position: absolute;
+    display: none;
+    left: 0;
+    top: 50px;
+    width: 100%;
+    height: calc(100% - 50px);
+}
+
+.dialog-body-debt {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 50px);
+}
+/*css cho phần chi tiết dialog của lựa chọn
+Người tạo NVMANH 30/5/2019*/
+.dialog-table-tab {
+    background-color: #f6f6f6;
+    height: 38px;
+}
+
+.tab-label {
+    float: left;
+    color: #737373;
+    font-weight: 600;
+    height: 38px;
+    padding: 8px;
+}
+
+    .tab-label:hover {
+        cursor: pointer;
+        background-color: #e2e2e2;
+    }
+
+.tab-label-click {
+    color: #026b97;
+    border-bottom: 2px solid #026b97;
+}
+
+    .tab-label-click:hover {
+        background-color: #f6f6f6;
+    }
+
+.wrap-tab-label {
+}
+
+.tab-label-detail {
+    border-right: 1px solid #d0d0d0;
+}
+
+.tab-label span {
+    padding: 12px;
+}
+
+.dialog-content-table-tab {
+    margin-top: 4px;
+}
+
+.dialog-content-table-tab {
+    height: calc(100% - 38px);
+    border-width: 1px 1px 0px 1px;
+    border-style: solid;
+    border-color: #d0d0d0;
+    position: relative;
+}
+
+.dialog-content-tab-detail {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.dialog-content-tab-voucher {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.dialog-tab-column-date {
+    width: calc(100% - 721px);
+    min-width: 159px;
+    text-align:center;
+}
+
+.dialog-tab-column-number {
+    width: 249px;
+}
+
+.dialog-tab-column-debt {
+    width: 149px;
+}
+
+.dialog-tab-column-collected {
+    width: 155px;
+}
+
+.dialog-tab-column-collect {
+    width: 156px;
+}
+
+.dialog-tab-column-collecting {
+    width: 161px;
+    border-right:none;
+}
+
+.dialog-voucher-tab-footer {
+    height: 33px;
+}
+
+.dialog-voucher-tab-header, .dialog-voucher-tab-footer {
+    overflow-x: hidden;
+}
+
+.dialog-voucher-tab-body {
+    overflow: auto;
+}
+
+.dialog-tab-header, .dialog-tab-body, .dialog-tab-footer {
+    min-width: 880px;
+}
+
+.dialog-tab-footer, .dialog-tab-header {
+    font-weight: 600;
+    color: #212121;
+}
+
+.dialog-tab-footer {
+    text-align: right;
+}
+
+.dialog-tab-header {
+    text-align: center;
+}
+
+.row-tab-detail-radio {
+    height: 33px;
+}
+/*css cho nút chọn hóa đơn thu nợ trên đầu dialog 
+Người tạo NVMANH 30/5/2019*/
+.dialog-panel-purpose-collect {
+    padding: 8px 4px;
+    position: absolute;
+    margin: 0px;
+    width: 180px;
+    height: 50px;
+    right: auto;
+    left: 355px;
+    top: 0px;
+}
+
+.wrap-purpose-collect {
+    height: 35px;
+    padding: 7px;
+    text-align: center;
+    border: 1px solid #026b97;
+    color: #026b97;
+    border-radius: 3px;
+    font-weight: 600;
+}
+
+    .wrap-purpose-collect:hover {
+        cursor: pointer;
+    }
+/*css cho phần chọn bảng đối tượng
+Người tạo NVMANH 4/6/2019*/
+.table-select-object {
+    z-index: 100000;
+    position: absolute;
+    height: 300px;
+    width: 530px;
+    display: none;
+    top: 33px;
+    left: -2px;
+    box-shadow: -3px 3px 5px 0px rgba(186,186,186,1);
+    border-radius: 5px;
+}
+
+.wrap-table-select-object, .wrap-table-select-employee {
+    height: 100%;
+    width: 100%;
+}
+
+.table-select-object-header, .table-select-employee-header {
+    width: 100%;
+    height: 28px;
+    background-color: #f0f0f0;
+    border-top: 1px solid #d0d0d0;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.wrap-select-object-header, .wrap-select-employee-header {
+    width: 100%;
+    height: 100%;
+}
+
+.table-select-object-content, .table-select-employee-content {
+    background-color: #fff;
+    width: 100%;
+    height: calc(100% - 28px);
+}
+
+.wrap-select-object-content, .wrap-select-employee-content {
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+    color: #404040;
+}
+
+.col-select-header, .col-employee-header {
+    float: left;
+    text-align: center;
+    font-weight: 600;
+    border-width: 0 1px 1px 0;
+    border-style: solid;
+    border-color: #d0d0d0;
+    height: 100%;
+    padding: 4px 0;
+}
+
+.col-select-header-id, .col-select-body-id {
+    width: 150px;
+}
+
+.col-select-header-name, .col-select-body-name {
+    width: 220px;
+}
+
+.col-select-body-type {
+    width: calc(100% - 370px);
+}
+
+.col-select-header-type {
+    width: calc(100% - 387px);
+    border-right: none;
+}
+
+.col-select-body {
+    height: 32px;
+    float: left;
+    border-width: 0 1px 1px 0;
+    border-style: solid;
+    border-color: #d0d0d0;
+    padding: 7px 8px;
+}
+
+.row-select-object {
+    height: 32px;
+    width: 100%;
+}
+
+    .row-select-object:hover {
+        background-color: #0088cc;
+        color: #fff;
+        cursor: pointer;
+    }
+/*css cho phần chọn bảng nhân viên
+Người tạo NVMANH 4/6/2019*/
+.table-select-employee {
+    position: absolute;
+    height: 290px;
+    width: 400px;
+    display: none;
+    top: -294px;
+    left: -2px;
+    box-shadow: -3px 3px 5px 0px rgba(186,186,186,1);
+    border-radius: 5px;
+}
+
+.col-employee-header {
+    float: left;
+    text-align: center;
+    font-weight: 600;
+    border-width: 0 1px 1px 0;
+    border-style: solid;
+    border-color: #d0d0d0;
+    height: 100%;
+    padding: 4px 0;
+}
+
+.col-employee-header-id, .col-employee-body-id {
+    width: 150px;
+}
+
+.col-employee-header-name, .col-employee-body-name {
+    width: calc(100% - 150px);
+}
+
+.col-employee-body {
+    height: 32px;
+    float: left;
+    border-width: 0 1px 1px 0;
+    border-style: solid;
+    border-color: #d0d0d0;
+    padding: 8px 8px;
+}
+
+.row-employee-object {
+    height: 32px;
+    width: 100%;
+}
+
+    .row-employee-object:hover {
+        background-color: #0088cc;
+        color: #fff;
+        cursor: pointer;
+    }
+
+.hide-icon {
+    display: none;
+}
+/*Thêm css cho phần tính chi phí trong radio khác
+Người tạo NVMANH 5/6/2019*/
+.dialog-voucher-calc {
+    width: 100%;
+    height: 35px;
+}
+
+.wrap-dialog-voucher-calc {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.dialog-voucher-calc-label {
+    float: left;
+    width: 90px;
+    height: 100%;
+    padding: 6px 5px 8px 0px;
+}
+
+.dialog-voucher-calc-input {
+    float: left;
+    width: calc(100% - 90px);
+    height: 100%;
+}
+
+.btn-check-calc-collect, .btn-check-calc-pay {
+    background-image: url("../../Contents/icons/uncheck.png");
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    margin-right: 3px;
+    float: left;
+}
+
+.check-calc-label {
+    float: left;
+}
+
+.wrap-voucher-calc-input {
+    width: calc(100% - 10px);
+    margin-left: 8px;
+    float: left;
+    border: 1px solid #d0d0d0;
+    border-radius: 5px;
+    height: 35px;
+    position: relative;
+}
+
+.select-type-calc {
+    outline: none;
+    float: left;
+    border: none;
+    width: calc(100% - 24px);
+    padding: 5px 1px 4px 8px;
+    height: 33px;
+    border-radius: 3px;
+}
+
+.combobox-type-calc-item {
+    position: absolute;
+    top: 34px;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    z-index: 999999;
+    display: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 10px 1px grey;
+}
+
+.type-calc-item {
+    height: 22px;
+}
+
+.calc-collect {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.calc-pay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+/*Thêm phiếu thu mới
+Người tạo NVMANH 7/6/2019*/
+.add-collect-money .dialog-header-item-save, .add-collect-money .dialog-header-item-help, .add-collect-money .dialog-header-item-complete {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.add-collect-money .dialog-header-item-backward, .add-collect-money .dialog-header-item-forward, .add-collect-money .dialog-header-item-add, .add-collect-money .dialog-header-item-edit, .add-collect-money .dialog-header-item-delete, .add-collect-money .dialog-header-item-back, .add-collect-money .dialog-header-item-print {
+    opacity: 0.5;
+    pointer-events: none;
+}
+/*Thêm phiếu chi mới
+Người tạo NVMANH 7/6/2019*/
+.add-pay-money .dialog-header-item-save, .add-pay-money .dialog-header-item-help, .add-pay-money .dialog-header-item-complete {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.add-pay-money .dialog-header-item-backward, .add-pay-money .dialog-header-item-forward, .add-pay-money .dialog-header-item-add, .add-pay-money .dialog-header-item-edit, .add-pay-money .dialog-header-item-delete, .add-pay-money .dialog-header-item-back, .add-pay-money .dialog-header-item-print {
+    opacity: 0.5;
+    pointer-events: none;
+}
+/*Nhân bản phiếu
+Người tạo NVMANH 7/6/2019*/
+.duplicate .dialog-header-item-save, .duplicate .dialog-header-item-help, .duplicate .dialog-header-item-complete {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.duplicate .dialog-header-item-backward, .duplicate .dialog-header-item-forward, .duplicate .dialog-header-item-add, .duplicate .dialog-header-item-edit, .duplicate .dialog-header-item-delete, .duplicate .dialog-header-item-back, .duplicate .dialog-header-item-print {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+/*Xem bản ghi
+Người tạo NVMANH 7/6/2019*/
+.view .dialog-header-item-add, .view .dialog-header-item-edit, .view .dialog-header-item-delete, .view .dialog-header-item-print, .view .dialog-header-item-help, .view .dialog-header-item-complete {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.view .dialog-header-item-save, .view .dialog-header-item-back {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.view .wrap-dialog-body-info input {
+    pointer-events: none;
+    background-color: #e5e6eb !important;
+    color: transparent;
+    text-shadow: 0 0 0 #404040;
+    border: 1px solid #e5e6eb;
+}
+.view .dialog-table-column-delete{
+    display:none;
+}
+.view .dialog-table-column-index{
+    width:300px;
+    border-right:none;
+}
+.view .dialog-table-column-explain{
+    width:calc(100% - 500px);
+}
+
+.view .object-input-left, .view .object-input-right, .view .dialog-info-submitter-input, .view .dialog-info-address-input, .view .dialog-info-reason-input, .view .employee-input-left, .view .employee-input-right, .view .dialog-voucher-number-input, .view .dialog-voucher-date-input {
+    background-color: #e5e6eb;
+}
+
+.view .icon-input-down, .view .icon-input-search, .view .icon-input-add, .view .dialog-icon-calender {
+    display: none;
+}
+
+.view .dialog-panel-radio {
+    pointer-events: none;
+}
+
+.view .dialog-body-detail-table input:focus {
+    color: transparent !important;
+    text-shadow: 0 0 0 #404040 !important;
+    background-color: #e5e6eb !important;
+}
+/*.view .dialog-detail-table-body input {
+    border: 1px solid #e5e6eb !important;
+}*/
+.view .combo-item-collect{
+    display:none;
+}
+.view input#select-item-collect{
+    width:100%!important;
+}
+/*Sửa bản ghi
+Người tạo NVMANH 7/6/2019*/
+.edit .dialog-header-item-save, .edit .dialog-header-item-back, .edit .dialog-header-item-help, .edit .dialog-header-item-complete {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.edit .dialog-header-item-backward, .edit .dialog-header-item-forward, .edit .dialog-header-item-add, .edit .dialog-header-item-edit, .edit .dialog-header-item-delete, .edit .dialog-header-item-print {
+    opacity: 0.5;
+    pointer-events: none;
+}
+/*Dialog Xóa
+Người tạo NVMANH 17/6/2019*/
+.content-alert-dialog span {
+    font-weight: 600;
+}
+/*Định dạng bảng chi tiết
+Ngưới tạo NVMANH 21/6/2019*/
+input#col-detail-money {
+    text-align: right;
+    padding-right: 8px;
+}
+
+#collect-input-3 {
+    text-align: right;
+}
+
+#collect-input-1 {
+    text-align: left;
+}
+
+#overlay {
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+    opacity:0.5;
+}
+#dialog-add-receipt .combo-item-collect {
+    height: 32px;
+    width: 24px;
+    float: left;
+    background: url('../../Contents/icons/arrow-down-line.png') no-repeat center center;
+}
+#dialog-add-receipt input#select-item-collect {
+    width: calc(100% - 24px);
+    float: left;
+}
+#dialog-add-receipt .dialog-table-select-item {
+    position: absolute;
+    top: 32px;
+    left: -1px;
+    width: 161px;
+    border: 1px solid #d0d0d0;
+    overflow: auto;
+    z-index:9;
+    background-color:#fff;
+}
+#dialog-add-receipt .dialog-table-select-item span {
+    display: block;
+    width: 100%;
+    height: 22px;
+    padding-left: 8px;
+    padding-top: 1px;
+}
+#dialog-add-receipt .dialog-table-select-item span:hover {
+    background-color: #026b97;
+    color: #fff;
+    cursor:pointer;
+}
+.input-detail-1{
+
+}
+.input-detail-2 {
+    text-align: right;
+    padding-right: 8px;
+}
+.input-detail-3 {
+    width: calc(100% - 24px)!important;
+    float: left;
+}
+.dialog-body-debt .dialog-tab-column-collecting{
+
+}
+.view .wrap-text-body-column {
+    padding: 8px;
+    /*background-color: #f0f0f0;*/
+}
+.view .table-detail-body input {
+    pointer-events:none;
+}
+.hover-icon-validate {
+    position: absolute;
+    z-index: 100;
+    color: #fff;
+    background-color: #dc3545;
+    padding: 6px 8px;
+    border-radius: 3px;
+    top: -32px;
+    right: 0px;
+    display: none;
+}
+.dialog-voucher-number, .dialog-voucher-date {
+    position: relative;
+}
+.supplierId, .supplierName, .supplierAddress{
+    float:left;
+}
+li.li-supplier {
+    width: 513px;
+    height: 32px;
+}
+li.li-employee {
+    width: 400px;
+    height: 32px;
+}
+.supplierId{
+    width:150px;
+}
+.supplierName{
+    width:220px;
+}
+.supplierAddress{
+    width: calc(100% - 370px);
+}
+.employeeId, .employeeName{
+    float:left;
+}
+.employeeId {
+    width: 150px;
+}
+.employeeName {
+    width: calc(100% - 150px);
+}
+.col-select-body span, .row-body-object-pay span, .li-supplier div, .row span{
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.row div{
+    width:100%;
+}

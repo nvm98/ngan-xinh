@@ -1,0 +1,10 @@
+C:\Users\nvmanh2\Source\Workspaces\MShop_MoneyFund\MISA.DL\bin\Debug\MISA.DL.dll
+C:\Users\nvmanh2\Source\Workspaces\MShop_MoneyFund\MISA.DL\bin\Debug\MISA.DL.pdb
+C:\Users\nvmanh2\Source\Workspaces\MShop_MoneyFund\MISA.DL\bin\Debug\MISA.Commons.dll
+C:\Users\nvmanh2\Source\Workspaces\MShop_MoneyFund\MISA.DL\bin\Debug\MISA.Entites.dll
+C:\Users\nvmanh2\Source\Workspaces\MShop_MoneyFund\MISA.DL\bin\Debug\MISA.Commons.pdb
+C:\Users\nvmanh2\Source\Workspaces\MShop_MoneyFund\MISA.DL\bin\Debug\MISA.Entites.pdb
+C:\Users\nvmanh2\Source\Workspaces\MShop_MoneyFund\MISA.DL\obj\Debug\MISA.DL.csprojResolveAssemblyReference.cache
+C:\Users\nvmanh2\Source\Workspaces\MShop_MoneyFund\MISA.DL\obj\Debug\MISA.DL.csproj.CoreCompileInputs.cache
+C:\Users\nvmanh2\Source\Workspaces\MShop_MoneyFund\MISA.DL\obj\Debug\MISA.DL.dll
+C:\Users\nvmanh2\Source\Workspaces\MShop_MoneyFund\MISA.DL\obj\Debug\MISA.DL.pdb
